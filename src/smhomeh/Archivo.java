@@ -17,6 +17,12 @@ public class Archivo {
         try {
             FileReader archivo=new FileReader("alarmas.txt");
             BufferedReader br= new BufferedReader(archivo);
+            String info;
+            String[] palabras;
+            while((info=br.readLine())!=null){
+                palabras=info.split(";");
+                
+            }
         } catch (Exception e) {
         }
     }

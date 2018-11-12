@@ -57,9 +57,18 @@ public class Usuario {
     
     public boolean AgregarUsuario(String nombre, int id, String rol){
         Usuario nuevo=new Usuario(nombre, id, rol);
+        //incompleto
         return true;
     }
     
-    
-    
+    public boolean BorrarUsuario(int pos){
+        Usuario info= (Usuario) usuarios.get(pos);
+        int idUser=info.getId();
+        //incompleto
+        if (true) {
+            return true;
+        }else{
+            return false;
+        }
+    }    
 }
