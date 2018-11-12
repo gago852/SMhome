@@ -3,3 +3,4 @@ build/
 nbbuild/
 nbdist/
 .nb-gradle/
+/dist/
