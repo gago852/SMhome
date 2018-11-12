@@ -10,5 +10,5 @@ package smhomeh;
  * @author gabriel
  */
 public class Generar {
-    
+    public int n=Sensor.sensores.size();
 }
