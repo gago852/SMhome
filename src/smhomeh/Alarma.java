@@ -27,7 +27,8 @@ public class Alarma {
     
     public static void AgregarAlarma(String tipo, String activacion, String nombre){
         Alarma nuevo=new Alarma(nombre, tipo, activacion);
-        //incompleto
+        nuevo.bases.GuardarAlarmas(nombre, tipo, activacion);
+        alarmas.add(nuevo);
     }
     
     public boolean ActivacionAlarma(String tipo,int valor){

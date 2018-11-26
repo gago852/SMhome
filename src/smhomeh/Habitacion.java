@@ -33,14 +33,16 @@ public class Habitacion {
     
     public static boolean AgregarHabitacion(String nombre, String ubicacion, int area){
         Habitacion nuevo=new Habitacion(nombre, ubicacion, area);
-        //incompleto
+        nuevo.bases.IngresarDatosHabitacion(nombre, ubicacion, area);
+        habitaciones.add(nuevo);
         return true;
     }
     
     public boolean BorrarHabitacion(int pos){
         Habitacion info= (Habitacion) habitaciones.get(pos);
-        //incompleto
-        if (true) {
+        String nombre=info.getNombreHabitacion();
+        if (info.bases.Eliminar("habitaciones.txt", nombre)) {
+            habitaciones.remove(pos);
             return true;
         }else{
             return false;

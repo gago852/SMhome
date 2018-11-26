@@ -99,12 +99,14 @@ public class Historial {
     
     public static void AgregarHistorial(String tipo,String ubicacion,int codigo,int valor,String activo){
         Historial his=new Historial(tipo, ubicacion, codigo, valor, activo);
-        //incompleto
+        his.bases.GuardarHistorial(tipo, ubicacion, codigo, valor, activo);
+        historiales.add(his);
     }
     
     public static void AgregarPromedio(String tipo,String ubicacion,int codigo,int valor,String activo){
         Historial his=new Historial(tipo, ubicacion, codigo, valor, activo);
-        //incompleto
+        his.bases.GuardarPromedio(tipo, ubicacion, codigo, valor, activo);
+        promedios.add(his);
     }
 
     public String getNombre() {

@@ -57,15 +57,16 @@ public class Usuario {
     
     public boolean AgregarUsuario(String nombre, int id, String rol){
         Usuario nuevo=new Usuario(nombre, id, rol);
-        //incompleto
+        nuevo.bases.IngresarDatosUsuario(id, nombre, rol);
+        usuarios.add(nuevo);
         return true;
     }
     
     public boolean BorrarUsuario(int pos){
         Usuario info= (Usuario) usuarios.get(pos);
         int idUser=info.getId();
-        //incompleto
-        if (true) {
+        if (info.bases.Eliminar("usuarios.txt", idUser)) {
+            usuarios.remove(pos);
             return true;
         }else{
             return false;

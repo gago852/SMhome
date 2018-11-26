@@ -35,7 +35,8 @@ public class Sensor {
     
     public static void AgregarSensor(String tipo, int codigo, String ubicaicion, String fecha, int rangoMin, int rangoMax, int frecuenAct){
         Sensor nuevo=new Sensor(tipo, codigo, ubicaicion, fecha, rangoMin, rangoMax, frecuenAct);
-        //incompleto
+        nuevo.bases.GuardarSensores(codigo, ubicaicion, tipo, fecha, rangoMax, rangoMin, frecuenAct);
+        sensores.add(nuevo);
     }
 
     public String getTipo() {
