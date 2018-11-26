@@ -33,6 +33,23 @@ public class Archivo {
             e.printStackTrace();
         }
     }
+    public void ObtenerDatosHistorial() {
+        try {
+            FileReader archivo = new FileReader("historial.txt");
+            BufferedReader br = new BufferedReader(archivo);
+            String info;
+            String[] palabras;
+            while ((info = br.readLine()) != null) {
+                palabras = info.split(";");
+                int val = Integer.parseInt(palabras[3]);
+                int codig = Integer.parseInt(palabras[2]);
+                Historial nuevo = new Historial(palabras[0], palabras[1],codig,val,palabras[4] );
+                Historial.historiales.add(nuevo);
+            }
+        } catch (IOException ex) {
+            Logger.getLogger(Archivo.class.getName()).log(Level.SEVERE, null, ex);
+        }        
+    }
     public void ObtenerDatosUsuario(){
         try {
             FileReader archivo=new FileReader("usuarios.txt");

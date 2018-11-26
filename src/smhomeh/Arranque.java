@@ -10,5 +10,15 @@ package smhomeh;
  * @author gabriel
  */
 public class Arranque {
-    
+    public static void main(String[] args) {
+        Inicio abrir=new Inicio();
+        Archivo open=new Archivo();
+        open.ObtenerDatosUsuario();
+        open.ObtenerDatosHab();
+        open.ObtenerDatosSensores();
+        open.ObtenerDatosHistorial();
+        open.ObtenerDatoAlarma();
+        open.ObtenerDatosPromedio();
+        abrir.setVisible(true);
+    }
 }
