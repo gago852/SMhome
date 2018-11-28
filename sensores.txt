@@ -1,0 +1,23 @@
+1;Cocina;Sensor de Gas;2014-12-01;356;27;2
+2;Cocina;Sensor de Humo;2014-12-24;1782;27;5
+3;Patio;Sensor Medidor De Flujo De Agua;2012-06-05;1796;4;31
+4;Cuarto 2 Camas;Sensor de Puerta Inalámbrica;2010-10-30;2514;19;60
+5;Baño;Sensor de Inundacion;2013-05-24;2770;15;34
+6;Cuarto de Huespedes;Sensor Medidor De Flujo De Agua;2011-02-02;981;9;14
+7;Sala de Estudio;Sensores de luminosidad;2009-11-16;2539;13;21
+8;Sala de Cine;Sensor de Presencia (PIR);2015-01-01;1734;10;43
+9;Patio;Sensor Detector De Lluvia;2012-12-12;1581;42;40
+10;Salon de Arte;Sensor de Movimiento Inalámbrico;2009-2-19;459;29;15
+11;Salon de Arte;Sensor de Humo;2005-10-22;1071;10;31
+12;Salon de Arte;Sensor de Presencia (PIR);2003-9-5;2266;26;50
+13;Salon de Videojuegos;Perchero Gancho con Camara Espia Oculta y Sensor Sonido;1998-6-24;2372;40;1
+14;Salon de Videojuegos;Sensor Detector De Lluvia;2014-4-6;2597;9;8
+15;Cuarto de 4 Piezas;Sensor de Puerta Inalámbrica;2005-12-19;1876;15;15
+16;Baño Grande;Sensor de Inundacion;2011-3-17;1475;31;53
+17;Cuarto de Huespedes;Sensor de Inundacion;2004-5-9;657;13;53
+18;Cuarto de Rick;Sensor de Presencia (PIR);2003-12-23;500;15;21
+19;Cuarto de Rick;Sensor de Presencia (PIR);1999-10-12;2582;40;5
+20;Cuarto de Rick;Sensor de Presencia (PIR);2001-12-14;2553;37;31
+21;Cuarto de Daryl;Sensor de Humo;2010-9-12;1729;24;24
+22;Cuarto de Daryl;Sensor de Movimiento Inalámbrico;2003-7-1;1152;31;18
+23;Cuarto de Daryl;Perchero Gancho con Camara Espia Oculta y Sensor Sonido;2005-5-28;1345;11;16

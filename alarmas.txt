@@ -1,0 +1,14 @@
+Posible Hipotermia;Sensor de Temperatura y Humedad;-5:menor
+Posible Incendio;Sensor de Gas;900:mayor
+Posible Incendio;Sensor de Humo;100:mayor
+Gasto en Exceso;Sensor Medidor De Flujo De Agua;15:mayor
+Intruso Detectado;Sensor de Puerta Inalámbrica;0.4:mayor
+Alerta de Incendio;Sensor de Temperatura y Humedad;70:mayor
+Nivel de agua elevado;Sensor de Inundacion;15:mayor
+Desperdicio de Energía;Sensores de luminosidad;5:mayor
+Intruso Detectado;Sensor de Presencia (PIR);2500:mayor
+Posible Roedor alrededor;Sensor de Movimiento Inalámbrico;2:mayor
+Sonido Sospechoso;Perchero Gancho con Camara Espia Oculta y Sensor Sonido;60:mayor
+Emergencia Inmediata;Perchero Gancho con Camara Espia Oculta y Sensor Sonido;140:mayor
+No hay Agua;Sensor Medidor De Flujo De Agua;0:menor
+Lluvia muy Intensa;Sensor Detector De Lluvia;100:mayor
